@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Click to meet",
+    "description": "Click to start a Google Meet call",
+    "author": "Andre Arruda",
+    "browser_action": {
+        "default_title": "Click to meet",
+        "default_popup": "index.html",
+        "default_icon": "icon_resize.png"
+    }
+}
