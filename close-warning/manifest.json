@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Close warning",
+    "description": "Click to close warning in current page",
+    "author": "Andre Arruda",
+    "action": {
+        "default_title": "Close warning",
+        "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
